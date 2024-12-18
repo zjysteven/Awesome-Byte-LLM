@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Byte-Based Models: A Survey",
+    "authors": "Alice, Bob",
+    "year": 2024,
+    "link": "https://arxiv.org/abs/1234.5678",
+    "summary": "A survey on byte-based large language models."
+  },
+  {
+    "title": "Efficient Byte-Based Transformers",
+    "authors": "Charlie, Dana",
+    "year": 2023,
+    "link": "https://arxiv.org/abs/8765.4321",
+    "summary": "Exploration of efficient methods for byte-level transformers."
+  }
+]

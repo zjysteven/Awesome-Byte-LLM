@@ -17,9 +17,10 @@ This repository serves as an ongoing collection of papers and resources focused 
 
 The meaning of most fields are clear by their names. "Date" is the time that the work is released/made public (e.g., the timestamp of its first arXiv version). "Summary" is a one-sentence summary of the paper.
 
-| Title | Date | Conference | Code | Summary |
-|-------|:----:|:----------:|:----:|---------|
-| [MEGABYTE: Predicting Million-byte Sequences with Multiscale Transformers](https://arxiv.org/pdf/2305.07185) | 2023-05 | NeurIPS'23 | - | <details>The paper introduces MEGABYTE, a multiscale Transformer architecture that segments sequences into patches, enabling efficient modeling of million-byte sequences with sub-quadratic self-attention, enhanced feedforward computation, and improved decoding parallelism, achieving competitive performance on tasks like long-context language modeling, image generation, and audio modeling.</details> |
+| Title | Date (MM/YY) | Source | Code | Summary |
+|-------|:------------:|:------:|:----:|---------|
+| [Byte Latent Transformer: Patches Scale Better Than Tokens](https://ai.meta.com/research/publications/byte-latent-transformer-patches-scale-better-than-tokens/) | 12/24 | Meta | [official](https://github.com/facebookresearch/blt) | <details>The paper introduces the Byte Latent Transformer (BLT), a novel byte-level large language model (LLM) that dynamically groups bytes into patches, improving inference efficiency, robustness, and scalability beyond tokenization-based models.</details> |
+| [MEGABYTE: Predicting Million-byte Sequences with Multiscale Transformers](https://arxiv.org/pdf/2305.07185) | 05/23 | NeurIPS'23 | [unofficial](https://github.com/lucidrains/MEGABYTE-pytorch) | <details>The paper introduces MEGABYTE, a multiscale Transformer architecture that segments sequences into patches, enabling efficient modeling of million-byte sequences with sub-quadratic self-attention, enhanced feedforward computation, and improved decoding parallelism, achieving competitive performance on tasks like long-context language modeling, image generation, and audio modeling.</details> |
 
 
 ## Contributing

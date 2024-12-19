@@ -18,7 +18,7 @@ def generate_markdown(json_file, output_file):
         f.write("## Introduction\n\n")
 
         f.write(
-            "Recently, there has been a growing interest in studying byte-based large language models (LLMs). These models eliminate the need for tokenization and operate directly on raw bytes—the universal format of the digital world. Byte-based models offer several promising advantages, including:\n\n" \
+            "Recently, there has been a growing interest in studying byte-based large language models (LLMs). These models eliminate the need for tokenization and operate directly on raw bytes—the universal format of the digital world. Byte-based models offer several promising advantages, including but not limited to:\n\n" \
             "- **Enhanced robustness and generalization:** By removing the heuristic biases introduced by tokenization, these models could achieve better adaptability.\n" \
             "- **Cross-modality scalability:** Since all data can be represented as bytes, these models naturally extend to multiple modalities.\n\n"
         )

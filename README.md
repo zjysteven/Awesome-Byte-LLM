@@ -30,4 +30,4 @@ The meaning of most fields are clear by their names. "Date" is the time that the
 
 Contributions are always welcome. There are two ways to add a new paper:
 1. The easiest way is to open an issue, where I have a template for you to fill out.
-2. If you would like to be listed as a contributor, you add the paper to `papers.json` and make a pull request. Please do NOT directly edit `README.md`.
+2. If you would like to be listed as a contributor, you can add the paper to `papers.json` and make a pull request. Please do NOT directly edit `README.md`.

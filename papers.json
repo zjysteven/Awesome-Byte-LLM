@@ -1,5 +1,23 @@
 [
     {
+        "title": "CANINE: Pre-training an Efficient Tokenization-Free Encoder for Language Representation",
+        "date": "03/21",
+        "link": "https://arxiv.org/pdf/2103.06874",
+        "source": "TACL",
+        "summary": "The paper introduces CANINE, a tokenization-free neural encoder that directly processes character sequences using a downsampling-transformer-upsampling architecture, achieving competitive multilingual performance on tasks like TYDI QA and NER while offering efficiency and robustness advantages over traditional subword-based models.",
+        "code": "https://github.com/google-research/language/tree/master/language/canine",
+        "code_official": true
+    },
+    {
+        "title": "ByT5: Towards a token-free future with pre-trained byte-to-byte models",
+        "date": "05/21",
+        "link": "https://arxiv.org/pdf/2105.13626",
+        "source": "TACL",
+        "summary": "The paper presents ByT5, a token-free byte-to-byte variant of the T5 Transformer that processes raw UTF-8 byte sequences without tokenization, achieving competitive performance across multilingual NLP tasks, offering robustness to noise, and demonstrating improved efficiency, especially in low-resource or multilingual contexts.",
+        "code": "https://github.com/google-research/byt5",
+        "code_official": true
+    },
+    {
         "title": "MEGABYTE: Predicting Million-byte Sequences with Multiscale Transformers",
         "date": "05/23",
         "link": "https://arxiv.org/pdf/2305.07185",

@@ -1,16 +1,9 @@
 [
   {
     "title": "MEGABYTE: Predicting Million-byte Sequences with Multiscale Transformers",
-    "authors": "Alice, Yu",
-    "year": 2024,
-    "link": "https://arxiv.org/abs/1234.5678",
-    "summary": "A survey on byte-based large language models."
-  },
-  {
-    "title": "Efficient Byte-Based Transformers",
-    "authors": "Charlie, Dana",
-    "year": 2023,
-    "link": "https://arxiv.org/abs/8765.4321",
-    "summary": "Exploration of efficient methods for byte-level transformers."
+    "date": "2023-05",
+    "link": "https://arxiv.org/pdf/2305.07185",
+    "conference": "NeurIPS'23",
+    "summary": "The paper introduces MEGABYTE, a multiscale Transformer architecture that segments sequences into patches, enabling efficient modeling of million-byte sequences with sub-quadratic self-attention, enhanced feedforward computation, and improved decoding parallelism, achieving competitive performance on tasks like long-context language modeling, image generation, and audio modeling."
   }
 ]

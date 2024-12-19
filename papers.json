@@ -9,6 +9,33 @@
         "code_official": false
     },
     {
+        "title": "Bytes Are All You Need: Transformers Operating Directly On File Bytes",
+        "date": "06/23",
+        "link": "https://arxiv.org/pdf/2306.00238",
+        "source": "TMLR",
+        "summary": "The paper introduces ByteFormer, a modality-independent transformer architecture that operates directly on file bytes, eliminating the need for modality-specific processing, and demonstrates superior performance on classification tasks across images, audio, and mixed-modality data.",
+        "code": "https://github.com/apple/corenet/tree/main/projects/byteformer",
+        "code_official": true
+    },
+    {
+        "title": "MambaByte: Token-free Selective State Space Model",
+        "date": "01/24",
+        "link": "https://arxiv.org/pdf/2401.13660",
+        "source": "COLM'24",
+        "summary": "MambaByte introduces a token-free selective state space model (SSM) that enables efficient language modeling of byte-level sequences with a fixed-sized memory state, outperforming subword and byte-level Transformers on language modeling tasks while offering improved robustness, efficiency, and speculative decoding for faster inference.",
+        "code": "https://github.com/jxiw/MambaByte",
+        "code_official": true
+    },
+    {
+        "title": "Beyond Language Models: Byte Models are Digital World Simulators",
+        "date": "02/24",
+        "link": "https://arxiv.org/abs/2402.19155",
+        "source": "arXiv",
+        "summary": "The paper introduces bGPT, a next-byte prediction model that operates directly on binary data to simulate diverse digital world processes, achieving state-of-the-art performance in modalities like text, audio, images, symbolic music conversion, and even CPU behavior simulation with over 99.99% accuracy.",
+        "code": "https://github.com/sanderwood/bgpt",
+        "code_official": true
+    },
+    {
         "title": "Byte Latent Transformer: Patches Scale Better Than Tokens",
         "date": "12/24",
         "link": "https://ai.meta.com/research/publications/byte-latent-transformer-patches-scale-better-than-tokens/",

@@ -1,9 +1,20 @@
 [
-  {
-    "title": "MEGABYTE: Predicting Million-byte Sequences with Multiscale Transformers",
-    "date": "2023-05",
-    "link": "https://arxiv.org/pdf/2305.07185",
-    "conference": "NeurIPS'23",
-    "summary": "The paper introduces MEGABYTE, a multiscale Transformer architecture that segments sequences into patches, enabling efficient modeling of million-byte sequences with sub-quadratic self-attention, enhanced feedforward computation, and improved decoding parallelism, achieving competitive performance on tasks like long-context language modeling, image generation, and audio modeling."
-  }
+    {
+        "title": "MEGABYTE: Predicting Million-byte Sequences with Multiscale Transformers",
+        "date": "05/23",
+        "link": "https://arxiv.org/pdf/2305.07185",
+        "source": "NeurIPS'23",
+        "summary": "The paper introduces MEGABYTE, a multiscale Transformer architecture that segments sequences into patches, enabling efficient modeling of million-byte sequences with sub-quadratic self-attention, enhanced feedforward computation, and improved decoding parallelism, achieving competitive performance on tasks like long-context language modeling, image generation, and audio modeling.",
+        "code": "https://github.com/lucidrains/MEGABYTE-pytorch",
+        "code_official": false
+    },
+    {
+        "title": "Byte Latent Transformer: Patches Scale Better Than Tokens",
+        "date": "12/24",
+        "link": "https://ai.meta.com/research/publications/byte-latent-transformer-patches-scale-better-than-tokens/",
+        "source": "Meta",
+        "summary": "The paper introduces the Byte Latent Transformer (BLT), a novel byte-level large language model (LLM) that dynamically groups bytes into patches, improving inference efficiency, robustness, and scalability beyond tokenization-based models.",
+        "code": "https://github.com/facebookresearch/blt",
+        "code_official": true
+    }
 ]

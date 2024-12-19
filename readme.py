@@ -3,6 +3,8 @@ import json
 def generate_markdown(json_file, output_file):
     with open(json_file, 'r') as f:
         papers = json.load(f)
+    # sort by date (MM/YY)
+    papers = sorted(papers, key=lambda x: (int(x['date'].split('/')[1]), int(x['date'].split('/')[0])), reverse=True)
     
     with open(output_file, 'w') as f:
         f.write("<p align='center'>\n")
@@ -28,22 +30,23 @@ def generate_markdown(json_file, output_file):
         f.write("""The meaning of most fields are clear by their names. "Date" is the time that the work is released/made public (e.g., the timestamp of its first arXiv version). "Summary" is a one-sentence summary of the paper.\n\n""")
 
         # table header
-        f.write("| Title | Date | Conference | Code | Summary |\n")
-        f.write("|-------|:----:|:----------:|:----:|---------|\n")
+        f.write("| Title | Date (MM/YY) | Source | Code | Summary |\n")
+        f.write("|-------|:------------:|:------:|:----:|---------|\n")
         
         # populate the table
         for paper in papers:
             if 'code' not in paper or paper['code'] in ['N/A', 'NA', 'na', 'n/a', '-']:
                 code = '-'
             else:
-                code = f"[Code]({paper['code']})"
+                assert 'code_official' in paper, "If code is provided, whether it is official or not should be specified."
+                code = f"[official]({paper['code']})" if paper['code_official'] else f"[unofficial]({paper['code']})"
 
             if 'summary' not in paper or paper['summary'] in ['N/A', 'NA', 'na', 'n/a', '-']:
                 summary = '-'
             else:
                 summary = "<details>" + paper['summary'] + "</details>"
 
-            f.write(f"| [{paper['title']}]({paper['link']}) | {paper['date']} | {paper['conference']} | {code} | {summary} |\n")
+            f.write(f"| [{paper['title']}]({paper['link']}) | {paper['date']} | {paper['source']} | {code} | {summary} |\n")
 
         # contributing
         f.write("\n\n## Contributing\n\n")

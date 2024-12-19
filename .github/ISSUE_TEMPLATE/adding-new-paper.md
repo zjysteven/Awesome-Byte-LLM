@@ -7,9 +7,8 @@ assignees: ''
 
 ---
 
-<!---
+<!--
 Please fill in each field. Here are some guides.
-
 [Title]: The title of the paper.
 [Link]: The link to the paper.
 [Date]: The date (MM/YY) it is first released or made public.
@@ -19,10 +18,17 @@ Please fill in each field. Here are some guides.
 [Summary]: A one-sentence summary of the paper. You can write it yourself, use an AI tool, or simply leave it blank.
 -->
 
+
 [Title]: 
+
 [Link]: 
+
 [Date]: 
+
 [Source]: 
+
 [Code]: 
+
 [Code official?]: 
+
 [Summary]:

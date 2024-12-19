@@ -52,7 +52,7 @@ def generate_markdown(json_file, output_file):
         f.write("\n\n## Contributing\n\n")
         f.write("Contributions are always welcome. There are two ways to add a new paper:\n")
         f.write("1. The easiest way is to open an issue, where I have a template for you to fill out.\n")
-        f.write("2. If you would like to be listed as a contributor, you add the paper to `papers.json` and make a pull request. Please do NOT directly edit `README.md`.\n")
+        f.write("2. If you would like to be listed as a contributor, you can add the paper to `papers.json` and make a pull request. Please do NOT directly edit `README.md`.\n")
 
 if __name__ == "__main__":
     generate_markdown('papers.json', 'README.md')

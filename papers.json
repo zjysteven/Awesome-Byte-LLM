@@ -54,12 +54,39 @@
         "code_official": true
     },
     {
+        "title": "SpaceByte: Towards Deleting Tokenization from Large Language Modeling",
+        "date": "10/24",
+        "link": "https://arxiv.org/pdf/2404.14408",
+        "source": "NeurIPS'24",
+        "summary": "The paper proposes a new byte-level Transformer architecture called SpaceByte, which uses dynamic word-boundary-aware patching and multiscale modeling to close the performance gap with tokenized models while retaining the benefits of tokenization-free language modeling under fixed compute budgets.",
+        "code": "N/A",
+        "code_official": false
+    },
+    {
         "title": "Byte Latent Transformer: Patches Scale Better Than Tokens",
         "date": "12/24",
         "link": "https://ai.meta.com/research/publications/byte-latent-transformer-patches-scale-better-than-tokens/",
         "source": "Meta",
         "summary": "The paper introduces the Byte Latent Transformer (BLT), a novel byte-level large language model (LLM) that dynamically groups bytes into patches, improving inference efficiency, robustness, and scalability beyond tokenization-based models.",
         "code": "https://github.com/facebookresearch/blt",
+        "code_official": true
+    },
+    {
+        "title": "EvaByte: Efficient Byte-level Language Models at Scale",
+        "date": "01/25",
+        "link": "https://hkunlp.github.io/blog/2025/evabyte/",
+        "source": "HKU NLP Group",
+        "summary": "EvaByte is a new open-source 6.5B byte-level language model from HKU and SambaNova that eliminates tokenization, achieves faster and more efficient decoding with innovative multibyte prediction and EVA attention, and demonstrates strong performance across text, code, and multimodal tasks using significantly less training data.",
+        "code": "https://github.com/OpenEvaByte/evabyte",
+        "code_official": true
+    },
+    {
+        "title": "Dynamic Chunking for End-to-End Hierarchical Sequence Modeling",
+        "date": "06/25",
+        "link": "https://arxiv.org/pdf/2507.07955",
+        "source": "CMU goombalab",
+        "summary": "The paper introduces H-Net, an end-to-end hierarchical network with a novel dynamic chunking mechanism that automatically learns data-driven, context-dependent segmentation, outperforming tokenized Transformers in efficiency and robustness, and demonstrating the potential of fully tokenizer-free large language models across diverse languages and modalities.",
+        "code": "https://github.com/goombalab/hnet",
         "code_official": true
     }
 ]
